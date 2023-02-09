@@ -1,5 +1,7 @@
 // npm i axios
 
+import Interceptors from "./examples/06. Interceptors";
+
 // Axios
 // returns promise
 // response data located in data object
@@ -8,7 +10,8 @@
 const App = () => {
   return (
     <div>
-      <header>Learn React</header>
+      <h2 className="text-center">Learn Axios</h2>
+      <Interceptors />
     </div>
   );
 };
